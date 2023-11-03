@@ -11,7 +11,6 @@
     - [1.2. Live2D Cubism Core について](#12-live2d-cubism-core-について)
     - [1.3. Live2D Cubism Components について](#13-live2d-cubism-components-について)
     - [1.4. Live2D Cubism サンプルデータについて](#14-live2d-cubism-サンプルデータについて)
-    - [1.5. コアの外部読み込み](#15-コアの外部読み込み)
 - [2. ビルド手順](#2-ビルド手順)
 
 ## 1. Live2D Cubism SDK for Web について
@@ -60,25 +59,6 @@ Cubism 4 SDK for Web R7
 [Live2D Cubism サンプルデータ利用条件](https://www.live2d.com/eula/live2d-sample-model-terms_jp.html) に則り、Cubism Web Samples 配下のサンプルデータを当リポジトリで使用しています。
 
 本作品のキャラクターには株式会社Live2Dの著作物であるサンプルデータが株式会社Live2Dの定める規約に従って用いられています。本作品は制作者の完全な自己の裁量で制作されています。
-
-### 1.5. コアの外部読み込み
-
-当リポジトリの `Cubism 4 SDK for Web R7` 配下のサンプルファイルについて、オリジナルから記述を一部更新しています。
-
-`CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html`
-
-```html
-<head>
-  ...
-  <!-- <script src = "../../../Core/live2dcubismcore.js"></script> -->                         ★ コメントアウト
-  <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script> ★ ホスティング先の URL を記述
-  ...
-<head>
-```
-
-Live2D Cubism Core の再頒布・公開は前述の規約により禁止されているので、GitHub リポジトリ上に配置できません。そのため公式でホスティングされている下記ファイルを参照しています。
-
-- [Live2D Cubism SDK for Web ダウンロード | Live2D Cubism](https://www.live2d.com/sdk/download/web/#url_cubismcore) > `Cubism Core for Web`
 
 ## 2. ビルド手順
 
