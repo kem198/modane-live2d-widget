@@ -144,5 +144,5 @@ out
 # End of https://www.toptal.com/developers/gitignore/api/node
 
 ### Live2D Cubism Core for Web ###
-CubismSdkForWeb-4-r.7/Core/*
-!CubismSdkForWeb-4-r.7/Core/.gitkeep
+docs/CubismSdkForWeb-4-r.7/Core/*
+!docs/CubismSdkForWeb-4-r.7/Core/.gitkeep
