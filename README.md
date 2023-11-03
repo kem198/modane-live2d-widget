@@ -1,7 +1,16 @@
 <!-- omit in toc -->
 # modane-live2d-widget
 
-もだねちゃんの Live2D パーツです。
+もだねちゃんの Live2D ウィジェット (うごくだけ) です。GitHub Pages で公開しています。
+
+- [modane-live2d-widget](https://kenkenpa198.github.io/modane-live2d-widget/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html)
+
+HTML の `iframe` タグで呼び出して配置します。
+
+```html
+<!-- Example -->
+<iframe id="iframe-modane" src="https://kenkenpa198.github.io/modane-live2d-widget/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html" frameborder="0"></iframe>
+```
 
 <!-- omit in toc -->
 ## 目次
