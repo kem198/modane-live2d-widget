@@ -65,6 +65,11 @@
 					"FadeOutTime": 0.5
 				}
 			],
+			"TapBun": [
+				{
+					"File": "motions/bounce.motion3.json"
+				}
+			],
 			"TapBody": [
 				{
 					"File": "motions/smile.motion3.json"
@@ -93,6 +98,10 @@
 		{
 			"Id": "HitAreaBody",
 			"Name": "Body"
+		},
+		{
+			"Id": "HitAreaBun",
+			"Name": "Bun"
 		}
 	]
 }

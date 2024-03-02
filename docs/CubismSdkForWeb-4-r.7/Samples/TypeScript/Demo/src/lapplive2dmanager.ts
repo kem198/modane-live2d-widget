@@ -122,6 +122,19 @@ export class LAppLive2DManager {
             LAppDefine.PriorityNormal,
             this._finishedMotion
           );
+      } else if (this._models.at(i).hitTest(LAppDefine.HitAreaNameBun, x, y)) {
+        if (LAppDefine.DebugLogEnable) {
+          LAppPal.printMessage(
+            `[APP]hit area: [${LAppDefine.HitAreaNameBun}]`
+          );
+        }
+        this._models
+          .at(i)
+          .startRandomMotion(
+            LAppDefine.MotionGroupTapBun,
+            LAppDefine.PriorityNormal,
+            this._finishedMotion
+          );
       }
     }
   }

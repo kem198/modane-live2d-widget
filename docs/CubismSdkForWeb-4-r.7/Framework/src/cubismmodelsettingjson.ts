@@ -40,6 +40,7 @@ const Target = 'Target';
 // Motions
 const Idle = 'Idle';
 const TapBody = 'TapBody';
+const TapBun = 'TapBun';
 const PinchIn = 'PinchIn';
 const PinchOut = 'PinchOut';
 const Shake = 'Shake';

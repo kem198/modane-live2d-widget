@@ -52,10 +52,12 @@ export const ModelDirSize: number = ModelDir.length;
 // 外部定義ファイル（json）と合わせる
 export const MotionGroupIdle = 'Idle'; // アイドリング
 export const MotionGroupTapBody = 'TapBody'; // 体をタップしたとき
+export const MotionGroupTapBun = 'TapBun'; // おだんごをタップしたとき
 
 // 外部定義ファイル（json）と合わせる
 export const HitAreaNameHead = 'Head';
 export const HitAreaNameBody = 'Body';
+export const HitAreaNameBun = 'Bun';
 
 // モーションの優先度定数
 export const PriorityNone = 0;
