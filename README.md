@@ -3,7 +3,7 @@
 
 もだねちゃんの Live2D ウィジェット (うごくだけ) です。GitHub Pages で公開しています。
 
-- [https://kem198.github.io/modane-live2d-widget/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html](https://kem198.github.io/modane-live2d-widget/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo/index.html)
+- [https://modane-live2d-widget.kem198.net](https://modane-live2d-widget.kem198.net)
 
 HTML の `iframe` タグで呼び出して配置します。
 
